@@ -11,7 +11,10 @@ export default async function TodoHistory() {
       {todoHistory.map(todo => (
         <div key={todo.id} className="flex items-center justify-between rounded-lg bg-gray-700 p-4 shadow-sm">
           <p className="text-base font-medium">{todo.title}</p>
-          <p className="text-sm text-gray-400">{new Date(todo.completedAt!).toLocaleDateString()}</p>
+          <div className="text-right">
+            <p className="text-xs text-gray-500">Completion date:</p>
+            <p className="text-sm text-gray-400">{new Date(todo.completedAt!).toLocaleDateString()}</p>
+          </div>
         </div>
       ))}
     </div>
