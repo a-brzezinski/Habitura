@@ -11,7 +11,7 @@ export const LandingNavigation = () => {
   return (
     <div className="shadow-md">
       <nav className="flex items-center justify-between p-4">
-        <h2>Habitura</h2>
+        <h2 className="text-xl font-bold">Habitura</h2>
         <div className="flex items-center gap-4">
           {isLoading ? (
             <>

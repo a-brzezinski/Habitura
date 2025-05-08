@@ -2,7 +2,7 @@ import { Todo, TodoPriority } from "@prisma/client";
 
 export const fetchTodos = async (priority: TodoPriority | "ALL"): Promise<Todo[]> => {
   try {
-    const response = await fetch(`http://localhost:3000/api/todos?priority=${priority}`);
+    const response = await fetch(`/api/todos?priority=${priority}`);
 
     const data = await response.json();
 
