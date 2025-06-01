@@ -4,7 +4,7 @@ import { useQueryClient } from "@tanstack/react-query";
 import { useTransition } from "react";
 import { toast } from "sonner";
 
-import { deleteHabit } from "@/app/actions/habits/delete-habit";
+import { deleteHabit } from "@/actions/habits/delete-habit";
 import { Button } from "@/components/ui/button";
 import { BaseQueryKeys } from "@/lib/api/queryKeys";
 

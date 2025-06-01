@@ -5,8 +5,8 @@ import { useTransition } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 
-import { deleteNote } from "@/app/actions/notes/delete-note";
-import { updateNote } from "@/app/actions/notes/update-note";
+import { deleteNote } from "@/actions/notes/delete-note";
+import { updateNote } from "@/actions/notes/update-note";
 import { Button } from "@/components/ui/button";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";

@@ -6,8 +6,8 @@ import { Trash } from "lucide-react";
 import { useTransition } from "react";
 import { toast } from "sonner";
 
-import { completeTodo } from "@/app/actions/todos/complete-todo";
-import { deleteTodo } from "@/app/actions/todos/delete-todo";
+import { completeTodo } from "@/actions/todos/complete-todo";
+import { deleteTodo } from "@/actions/todos/delete-todo";
 import { Button } from "@/components/ui/button";
 import { BaseQueryKeys } from "@/lib/api/queryKeys";
 

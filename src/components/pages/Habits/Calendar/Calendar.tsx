@@ -4,7 +4,7 @@ import { useQueryClient } from "@tanstack/react-query";
 import { useEffect, useState, useTransition } from "react";
 import { toast } from "sonner";
 
-import { updateHabit } from "@/app/actions/habits/update-habits";
+import { updateHabit } from "@/actions/habits/update-habits";
 import { InlineMessage } from "@/components/shared/InlineMessage";
 import { Button } from "@/components/ui/button";
 import { datesAreEqual, getDaysInMonth, getFirstDayOfMonth, monthNames } from "@/helpers/calendar";
